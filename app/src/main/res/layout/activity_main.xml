@@ -41,6 +41,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:rowCount="6"
-        android:columnCount="2"></GridLayout>
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:background="#ffc8deff">
+
+        <TextView
+            android:id="@+id/tsp_text_view"
+            android:text="1.0 teaspoon"
+            />
+        </GridLayout>
 
 </RelativeLayout>
